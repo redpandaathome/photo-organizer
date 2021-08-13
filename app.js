@@ -27,7 +27,7 @@ function main() {
     ellieOrganizer.organizer(sourcePath);
   } else if (helperMethodList.includes(method)) {
     console.log("method:", method);
-    helper.makeOneDirectory(targetPath);
+    helper.findOrCreateDirectory(targetPath);
     helper.renameFileToTargetDir(sourcePath, targetPath, method);
   }
 }
