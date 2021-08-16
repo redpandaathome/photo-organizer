@@ -10,9 +10,9 @@ const helperMethodList = ["screenshot", "daily"];
 const customMethodList = ["ellie"];
 main();
 
-// run ex - node app.js ellie /Users/yumi/Downloads/life/photo/test/ _
-// run ex - node app.js screenshot /Users/yumi/Desktop/ /Users/yumi/Desktop/Screenshot/
-// run ex - node app.js daily /Users/yumi/Desktop/ /Users/yumi/Desktop/DailyScreenshot/
+// 🏃🏻‍♀️run ex - node app.js ellie /Users/yumi/Downloads/life/photo/test/ _
+// 🏃🏻‍♀️run ex - node app.js screenshot /Users/yumi/Desktop/ /Users/yumi/Desktop/Screenshot/
+// 🏃🏻‍♀️run ex - node app.js daily /Users/yumi/Desktop/ /Users/yumi/Desktop/DailyScreenshot/
 
 // FULL_PATH ex - export FULL_PATH="/Users/yumi/Downloads/life/photo/"
 function main() {
