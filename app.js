@@ -28,6 +28,6 @@ function main() {
   } else if (helperMethodList.includes(method)) {
     console.log("method:", method);
     helper.findOrCreateDirectory(targetPath);
-    helper.renameFileToTargetDir(sourcePath, targetPath, method);
+    helper.organizer(sourcePath, targetPath, method)
   }
 }
