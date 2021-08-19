@@ -1,7 +1,4 @@
-var assert = require("assert");
-const fs = require("fs");
 const mock = require("mock-fs");
-const path = require("path");
 const chai = require("chai");
 const deepEqualInAnyOrder = require("deep-equal-in-any-order");
 const expect = chai.expect;
@@ -23,10 +20,6 @@ describe("organizer test", () => {
         "a.mp4": "# Hello world!",
       },
     });
-
-    const files = helper.getImageVideoFiles("test/");
-    const beforePaths = helper.getImageVideoFullPaths("test/", files);
-    console.log("🥁 beforePaths:", beforePaths);
 
     const expected = [
       // "test/IMG_2345.jpg",
@@ -52,9 +45,6 @@ describe("organizer test", () => {
         "Screen Shot 2021-08-17 at 8.43.42 PM.png": "# Hello world!",
       },
     });
-
-    const files = helper.getImageVideoFiles("test/");
-    const beforePaths = helper.getImageVideoFullPaths("test/", files);
 
     const expected = [
        "organized-test/2021-08-15/Screen Shot 2021-08-15 at 8.43.41 PM.png",
@@ -94,9 +84,6 @@ describe("organizer test", () => {
       },
     });
 
-    const files = helper.getImageVideoFiles("test/");
-    const beforePaths = helper.getImageVideoFullPaths("test/", files);
-
     const expected = [
        "organized-test/2020-10-25/P1010794.jpg",
        "organized-test/2021-05-05/bbb.png",
@@ -106,7 +93,6 @@ describe("organizer test", () => {
     ];
 
     const actual = helper.organizer("test/", "organized-test/", "daily")
-    console.log("actual:", actual)
     expect(actual).to.deep.equalInAnyOrder(expected);
     mock.restore();
   });

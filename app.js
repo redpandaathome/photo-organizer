@@ -13,8 +13,6 @@ main();
 // 🏃🏻‍♀️run ex - node app.js ellie /Users/yumi/Downloads/life/photo/test/ _
 // 🏃🏻‍♀️run ex - node app.js screenshot /Users/yumi/Desktop/ /Users/yumi/Desktop/Screenshot/
 // 🏃🏻‍♀️run ex - node app.js daily /Users/yumi/Desktop/ /Users/yumi/Desktop/DailyScreenshot/
-
-// FULL_PATH ex - export FULL_PATH="/Users/yumi/Downloads/life/photo/"
 function main() {
   console.log("🥁🥁🥁🥁🥁");
   console.log(`Processing in ${sourcePath}`);
@@ -26,7 +24,6 @@ function main() {
   if (method == "ellie") {
     ellieOrganizer.organizer(sourcePath);
   } else if (helperMethodList.includes(method)) {
-    console.log("method:", method);
     helper.findOrCreateDirectory(targetPath);
     helper.organizer(sourcePath, targetPath, method)
   }
