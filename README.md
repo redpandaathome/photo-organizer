@@ -11,6 +11,7 @@ Her way is simple
 - All the screenshots with .png or .aae extension -> screenshot folder  
 - All video file with .mp4 or .mov -> video folder  
 - When you edit an original photo titled "IMG_1234", it will make a new file titled "IMG_E1234". Then We want to keep edited one and put original one to duplicated folder.  
+
 <br>As follows 👀
 <img src="./img/aaa.png">
 <br><br>
