@@ -1,16 +1,16 @@
 # photo-organizer
 
-This project started to organize image files better *- I take a lot of screenshot and my desktop gets messy easily🤦🏻‍♀️*
+This project started to organize image files better *- I take a lot of screenshots and my desktop gets messy easily🤦🏻‍♀️*
 
 There are 3 ways so far
 ***
 ## 1. Ellie's way  
 
-Ellie organizes all her photos every month before uploading to google photo  
+Ellie organizes all her photos every month before uploading them to google photo  
 Her way is simple  
 - All the screenshots with .png or .aae extension -> screenshot folder  
-- All video file with .mp4 or .mov -> video folder  
-- When you edit an original photo titled "IMG_1234", it will make a new file titled "IMG_E1234". Then We want to keep edited one and put original one to duplicated folder.  
+- All video files with .mp4 or .mov -> video folder  
+- When you edit an original photo titled "IMG_1234", it will make a new file titled "IMG_E1234". Then we want to keep the edited one and put the original one in a duplicated folder.  
 
 <br>As follows 👀
 <img src="./img/aaa.png">
@@ -18,13 +18,13 @@ Her way is simple
 ***
 ## 2. Screenshots only!  
 
-When you simply takes screenshots, it will save files as below   
+When you simply take screenshots, it will save files as below   
 > "Screen Shot 2021-08-16 at 8.43.41 PM"  
 > "Screen Shot 2021-08-17 at 10.54.21 PM"  
 > "Screen Shot 2021-08-17 at 10.54.35 PM"  
 
 <br>
-Screenshot method will put each file into matching date folder  
+The screenshot method will put each file into its matching date folder  
 
 > first one -> folder "2021-08-16"  
 > others -> folder "2021-08-17"  
@@ -70,7 +70,7 @@ node app.js daily /Users/forky/Desktop/ /Users/forky/Desktop/DailyScreenshot/
 <br><br>
 ***
 ## Little Note ✉️
-If there's issue or request, please feel free to let me know 🙌🏻  
+If there's an issue or request, please feel free to let me know 🙌🏻  
 
 This is my very first project to be shared and it would be great if this project could be helpful to someone.  
 
